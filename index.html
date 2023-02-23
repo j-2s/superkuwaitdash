@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUM-Kuw</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,600;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/2d8a0fc34a.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" 
+href="images/logo.png" 
+type="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Kuwait's Biggest University</h1>
+    <p>Making websites is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br>Javascript adn your good to go</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+</section>
+
+<!----- Course ----->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Join us now !</p>
+
+    <div class="row">
+        <div class="course-col"
+            <h3>Our University majors</h3>
+            <p>We have lots of majors for our students to choose</p>
+        </div>
+        <div class="course-col"
+            <h3>Graduation</h3>
+            <p>Our graduated students a visitor card which they can use to enter the University events and more..</p>
+    </div>
+        <div class="course-col"
+            <h3>Offers</h3>
+            <p>We offer our students a 250Kd sallary to help them buy books and use them for their own life .</p>
+        </div>
+    </div>
+
+</section>
+
+    <!---- kuwait ---->
+
+<section class="kuwait">
+    <h1>We are in Kuwait</h1>
+    <p>Here are some landmarks you might seen</p>
+
+    <div class="row">
+        <div class="kuwait-col">
+            <img src="images/third.jpg">
+            <div class="layer">
+                <h3>AlHamra<br>Tower</h3>
+            </div>
+        </div>
+        <div class="kuwait-col">
+            <img src="images/fifth.jpg">
+            <div class="layer">
+                <h3>Kuwait<br>Towers</h3>
+            </div>
+        </div>
+        <div class="kuwait-col">
+            <img src="images/eighth.jPG">
+            <div class="layer">
+                <h3>Kuwait<br>Flag</h3>
+            </div>
+        </div>
+    </div>  
+
+</section>
+
+    <!----- Footer ----->
+    
+    <section class="footer">
+        <div class="icons">
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Jassem</p>
+    </section>
+
+    <!--- Javascript for toggle menu----  -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
